@@ -2,6 +2,7 @@ using System;
 using Discord;
 using Discord.WebSocket;
 using System.Threading.Tasks;
+
 namespace Bolt
 {
     public class Program
@@ -21,7 +22,7 @@ namespace Bolt
 
             //  new  CommandHandler(_client);
 
-            await _client.LoginAsync(TokenType.Bot, "");
+            await _client.LoginAsync(TokenType.Bot, progress.env.BOT_TOKEN);
 
             await _client.StartAsync();
 
