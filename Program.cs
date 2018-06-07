@@ -21,7 +21,7 @@ namespace Bolt
 
             //  new  CommandHandler(_client);
 
-            await _client.LoginAsync(TokenType.Bot, "NDM5MzgxNzc5MzA0OTM5NTIx.DfpjSg.O-jmosGYhXhzodfttxE5ZdSegPo");
+            await _client.LoginAsync(TokenType.Bot, "");
 
             await _client.StartAsync();
 
